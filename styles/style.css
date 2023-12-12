@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    /* background-image: url(../images/slider-bg.jpg); */
+    background-image:
+    linear-gradient( rgba(28, 42, 121, 0.87), rgba(8, 14, 104, 0.9)),
+    url('../images/slider-bg.jpg');
+    color: white;
+    width: auto;
+    height: 100vh;
+ }
+ .nav-title{
+    font-size: 28px;
+ }
+.navContainer{
+    display: flex;
+    /* color: white; */
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+.navBer li{
+    display: inline;
+    margin: 0px  30px;
+}
+.header-section{
+    /* border: 2px solid rgb(128, 15, 0); */
+    width: 70vw;
+    margin: 70px auto;
+}
+.header-title h1{
+    font-size: 40px;
+}
+.header-title{
+    /* border: 2px solid green; */
+    width: 40vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+    margin: 60px auto;
+}
+.header-fild{
+    display: flex;
+    border: none;
+    margin: auto;
+    gap: 23px;
+}
+.text-box{
+    padding: 15px 10px;
+    width: 18vw;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: inherit;
+    color: rgb(175, 9, 9);
+    border: 2px solid rgb(228, 19, 19) ;
+}
+.btn{
+    padding: 10px 80px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(228, 19, 19);
+ border: none;
+}
+.main-cart{
+    background-color:rgb(177, 10, 10) ;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+}
+.cart{
+    height: 100%;
+    padding: 30px;
+}
+.cart:hover{
+    background-color: rgb(124, 12, 12);
+}
+.cart img{
+    width: 3vw;
+    margin: auto;
+}
+
+.input-box{
+    display: flex;
+
+    width: 30vw;
+    padding: 20px 30px;
+    margin: 20px auto;
+}
+.input-box input{
+    width: 20px;
+    /* text-align: center; */
+    align-items: center;
+    height: 20px;
+    margin-right: 5px;
+ 
+}
+.input-box label{
+   margin-right: 20px;
+   font-size: 18px;
+   margin:auto 5px;
+   color: white;
+}
+.about-image img{
+    width: 35vw;
+    border-radius: 20px;
+}
+.about-title h2{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about-title{
+    width: 40vw;
+    font-family: sans-serif;
+    margin: 70px 0px;
+}
+.button:hover{
+    background-color: inherit;
+    color:rgb(3, 3, 99);
+    border: 1px solid  rgb(3, 3, 99);
+}
+.button{
+    padding: 14px 50px;
+    color: white;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(3, 3, 99);
+}
+.job-section{
+    border: 2px solid green;
+    background-color:rgb(3, 3, 99) ;
+    color: white;
+}
+.btn-sec{
+    padding: 10px 30px;
+    color: white;
+    font-size: 19px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(40, 40, 230);
+}
+.footer-btn{
+    text-align: end;
+}
+.job-cart img{
+    /* border: 2px solid red; */
+    padding: 20px;
+    background-color: white;
+}
+.job-cart{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 40vw;
+    height: 25vh;
+    gap: 20px;
+}
+.job-titles{
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title{
+    /* border: 2px solid red; */
+    width: 25vw;
+    margin: 20px 0px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.title h4{
+    margin:0;
+}
+.about-section{
+    display: flex;
+    margin: 40px auto;
+    gap: 40px;
+    justify-content: center;
+}
+.free-job{
+    margin: 30px 85px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.featured-job{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    gap: 30px;
+}
+.main-jobs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    gap: 30px;
+}
+.jobs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    gap: 30px;  
+}
+.box{
+    justify-content: center;
+    text-align: center;
+    margin: 40px 0px;
+}
+.product-btn{
+    padding: 15px 25px;
+    width: 13vw;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color:rgb(236, 25, 25)  ;
+}
