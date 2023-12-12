@@ -59,11 +59,11 @@ header{
     border: 2px solid rgb(228, 19, 19) ;
 }
 .btn{
-    padding: 10px 80px;
-  border-radius: 5px;
-  color: white;
-  background-color: rgb(228, 19, 19);
- border: none;
+   padding: 10px 80px;
+   border-radius: 5px;
+   color: white;
+   background-color: rgb(228, 19, 19);
+   border: none;
 }
 .main-cart{
     background-color:rgb(177, 10, 10) ;
@@ -134,7 +134,6 @@ header{
     background-color: rgb(3, 3, 99);
 }
 .job-section{
-    border: 2px solid green;
     background-color:rgb(3, 3, 99) ;
     color: white;
 }
@@ -166,6 +165,7 @@ header{
 }
 .job-titles{
     text-align: center;
+    padding: 30px;
     margin: 50px 0px;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -216,14 +216,83 @@ header{
 .box{
     justify-content: center;
     text-align: center;
-    margin: 40px 0px;
+    padding: 20px;
+    margin: 30px 0px;
 }
 .product-btn{
     padding: 15px 25px;
     width: 13vw;
     font-size: 18px;
-    border-radius: 5px;
     color: white;
     border: none;
     background-color:rgb(236, 25, 25)  ;
+}
+.freelaner-title{
+    text-align: center;
+    margin: 50px auto; 
+    font-family: sans-serif;
+    font-family: 20px;
+    width: 60vw;
+}
+.freelaner-title h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.freelancer{
+    display: flex;
+    justify-content: space-around;
+}
+.freelancer-section{
+    /* border: 2px solid red; */
+    width: 27vw;
+    height: 85vh;
+    border-radius: 14px;
+    color: white;
+    background-color:rgb(3, 3, 99) ;
+}
+.card{
+    margin: 20px 0px;
+}
+.free-card  img{
+    width: 27vw;
+    border-radius: 14px 14px 0px  0px;
+}
+.free-card {
+    font-family: sans-serif;
+    font-size: 19px;
+}
+.free-card h4{
+    margin: 0;
+    padding: 0px 10px;
+}
+.free-title{
+    display: flex;
+    padding: 0px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    padding: 0px 10px;
+}
+.free-box{
+    font-family: sans-serif;
+    padding: 0px 10px;
+    font-size: 18px;  
+}
+.buttom{
+    text-align: center;
+}
+.freelancing-btn{
+    padding: 15px ;
+    width: 18vw;
+    margin: 30px auto;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color:rgb(236, 25, 25)  ;
+}
+.freelancing-btn:hover{
+    background-color: inherit;
+    border: 1px solid rgb(236, 25, 25);
+    color:rgb(236, 25, 25)  ;
 }
