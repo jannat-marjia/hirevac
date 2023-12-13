@@ -243,7 +243,6 @@ header{
     justify-content: space-around;
 }
 .freelancer-section{
-    /* border: 2px solid red; */
     width: 27vw;
     height: 85vh;
     border-radius: 14px;
@@ -296,3 +295,53 @@ header{
     border: 1px solid rgb(236, 25, 25);
     color:rgb(236, 25, 25)  ;
 }
+.footer{
+    background-color: rgb(4, 4, 63);
+     margin-top: 40px;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 30px 50px;
+}
+.footer-card{
+    width: 20vw;
+    height: 30vh;
+    font-family: sans-serif;
+}
+.footer-icon{
+    font-size: 25px;
+}
+ .email-box{
+    width: 20vw;
+    padding: 15px 0px;
+ }
+ .sub-btn{
+    margin: 20px 0px;
+    padding: 15px 0px;
+    width: 13vw;
+    border-radius: 5px;
+    background-color: rgb(243, 27, 27) ;
+    color: white;
+    border: none;
+ }
+ .sub-btn:hover{
+    background-color: inherit;
+    color: rgb(243, 27, 27);
+ }
+ hr{
+    border: none;
+    border-top: 1px solid #858181;
+    color: #ec1212;
+    padding-bottom: 30px;
+    height: 1px;
+    width: 90%;
+    margin: 0px auto;
+ }
+ @media screen and (max-width: 768px){
+  
+    
+ }
+ 
